@@ -35,7 +35,7 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
                 boxSize="32px"
                 borderRadius="8px"
                 objectFit="cover"
-                src={getCroppedImageUrl(genre.image_background)}
+                src={getCroppedImageUrl(genre.background_image)}
               />
               <Button
                 whiteSpace="normal"
